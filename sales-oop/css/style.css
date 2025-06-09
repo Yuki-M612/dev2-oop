@@ -1,0 +1,50 @@
+
+    body {
+      background-color: #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .register-box {
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .form-control {
+      border-radius: 8px;
+    }
+
+    .btn-register {
+      background-color: #e63946;
+      color: white;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .btn-register:hover {
+      background-color: #d62828;
+    }
+
+    .header-icon {
+      color: #e63946;
+      font-size: 2.5rem;
+    }
+
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 1.5rem;
+      color: #aaa;
+      cursor: pointer;
+    }
+
+    .close-button:hover {
+      color: black;
+    }
