@@ -46,14 +46,14 @@ require_once 'Meat.php';
 $tina_store = new Fruit("Tina's Mangoes", "Mango", 3.25,"yellow", "fresh","sweet");
 $albert_store = new Meat("Albert's Meatshop", "Ribeye Stek", 10, "beef", "ribs");
 
-echo $tina_store->openStore();
-echo $tina_store->announce();
-echo $tina_store->displayDetails();
-
-echo"<hr>";
-
 echo $albert_store->openStore();
 echo $albert_store->announce();
 echo $albert_store->displayDetails();
+
+echo"<hr>";
+
+echo $john_store->openStore();
+echo $john_store->announce();
+echo $john_store->displayDetails();
 
 ?>
